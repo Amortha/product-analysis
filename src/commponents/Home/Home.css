@@ -1,0 +1,23 @@
+.text-color{
+   color:#F58220;
+}
+.laptop-information{
+    display: flex;
+justify-content: space-around;
+   
+}
+.left-site{
+    width: 40%;
+}
+.Right-site{
+    width: 40%;
+}
+.button{
+padding: 15px;
+border: none;
+background-color: rgb(134, 125, 125);
+margin-top: 50px;
+cursor: pointer;
+font-size: 20px;
+border-radius: 5px;
+}
