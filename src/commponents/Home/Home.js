@@ -1,7 +1,13 @@
 import React from 'react';
-import './Home.css'
+import { Link } from 'react-router-dom';
+// import useReview from '../../hook/useReview';
+import useReview from '../../hook/useReview';
+import ReviewCart from '../ReviewCart/ReviewCart';
+import './Home.css';
+
 
 const Home = () => {
+    const [reviews,setReview] = useReview();
     return (
         <div>
             <div className='laptop-information'>
@@ -13,6 +19,18 @@ const Home = () => {
                 <div className='right-site'>
                    <img src="Laptop.jpg" alt="" />
                 </div>
+            </div>
+            
+            <div className="customar-review-area">
+            <h1 className='review'>Customar Reviews</h1>
+                <div className="cart-review">
+                    {
+                        reviews.slice(0, 3).map(rev => <ReviewCart reviews={rev} key={rev.id} />)
+                    }
+                </div>
+            </div>
+            <div className="see-all-btn">
+                <Link to='/review'>See All Reviews</Link>
             </div>
         </div>
     );

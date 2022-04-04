@@ -21,3 +21,18 @@ cursor: pointer;
 font-size: 20px;
 border-radius: 5px;
 }
+.review{
+    text-align: center;
+    color: #F58220;
+    font-size: 30px;
+}
+
+.cart-review{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 30px;
+   
+}
+
+
