@@ -34,5 +34,23 @@ border-radius: 5px;
     padding: 30px;
    
 }
+.btn{
+   padding: 100px;
+  
+}
+.see-all-btn  {
+    margin-left: 350px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 9px;
+padding-bottom: 9px;
+background-color: #F58220;
+color: black;
+font-weight: bold;
+border: none;
+cursor: pointer;
+font-size: 20px;
+
+}
 
 
