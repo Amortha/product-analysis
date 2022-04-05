@@ -1,6 +1,6 @@
- Welcome our Star Tach company.
+<h1> Welcome our Star Tach company.</h1>
 
-This project was bootstrapped with (https://gentle-praline-6fadae.netlify.app).
+<h2>This project was bootstrapped with (https://gentle-praline-6fadae.netlify.app).</h2>
 
 ## Available Scripts
 
