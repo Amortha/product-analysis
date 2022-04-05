@@ -1,17 +1,20 @@
 .text-color{
    color:#F58220;
 }
+/* leptop informnation  */
 .laptop-information{
-    display: flex;
-justify-content: space-around;
-   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    padding: 80px;
 }
 .left-site{
-    width: 40%;
+    width: 100%;
 }
 .Right-site{
-    width: 40%;
+    width: 1000%;
 }
+/* button css  */
 .button{
 padding: 15px;
 border: none;
@@ -21,23 +24,23 @@ cursor: pointer;
 font-size: 20px;
 border-radius: 5px;
 }
+/* review css  */
 .review{
     text-align: center;
     color: #F58220;
     font-size: 30px;
 }
-
+/* cart css  */
 .cart-review{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 50px;
     padding: 30px;
-   
 }
 .btn{
    padding: 100px;
-  
 }
+/* bootom buton css  */
 .see-all-btn  {
     margin-left: 350px;
 padding-left: 50px;
@@ -51,6 +54,19 @@ border: none;
 cursor: pointer;
 font-size: 20px;
 
+}
+/* mobaile responsive */
+@media screen and (max-width:480px){
+    .laptop-information{
+        grid-template-columns: 1fr;
+    }
+    .cart-review{
+        grid-template-columns: 1fr;
+        padding-left:80px;
+    }
+    .see-all-btn{
+     margin: auto;
+    }
 }
 
 
